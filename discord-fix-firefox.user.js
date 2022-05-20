@@ -4,7 +4,7 @@
 // @run-at document-idle
 // @author GooseSima
 // @license MIT
-// @version 1.0
+// @version 1.1
 // @namespace https://github.io/GooseSima/userscripts
 // @supportURL https://github.io/GooseSima/userscripts/issues
 // @match https://discord.com/*
@@ -29,7 +29,6 @@
                     if(e.parentElement.getAttribute('mask')) {
                         e.parentElement.removeAttribute('mask');
                     }
-                    return;
                 }
             }
         }
